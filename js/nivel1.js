@@ -100,7 +100,7 @@
 
 // TAREA: Creá 2 variables indefinidas, llamadas numeroUno y numeroDos.
 
-let numeroUno, numeroDos;
+// let numeroUno, numeroDos;
 
 /*
     Podés usar el nombre de tus variables pare representar qué información tienen adentro, por ejemplo:
@@ -114,9 +114,10 @@ let numeroUno, numeroDos;
 // Crear 2 variables nuevas, una con tu nombre, la segunda con tu edad. Dales un nombre apropriado y
 // mostralas con un alert.
 
-let nombre = "Jona";
-let edad = "35";
-alert(nombre + ": " + edad + " años.");
+// let nombre = "Jona";
+// let edad = "35";
+// alert(nombre + ": " + edad + " años.");
+
 // Consejo: para mostrar 2 variables de texto al mismo tiempo, las podés unir usando el signo '+'. Ejemplo:
 
 /*
@@ -150,8 +151,8 @@ alert(nombre + ": " + edad + " años.");
 
 // TAREA: Crear una constante y mostrarla con un alert
 
-const peronismo = "PERONISMO = BAD, really really BAD!";
-alert(peronismo);
+// const peronismo = "PERONISMO = BAD, really really BAD!";
+// alert(peronismo);
 
 // TAREA: Intentar asignar un valor a una constante y ver qué pasa (mirar la consola)
 
@@ -187,10 +188,10 @@ Uncaught TypeError: Assignment to constant variable. */
 // la 1ra variable multiplicada (con el operador *) por la 2nda variable.
 // Mostrar el valor de resultadoMultiplicacion con un alert o un console.log
 
-let diez = 10;
-let tres = 3;
-let resultadoMultiplicacion = diez * tres;
-console.log(resultadoMultiplicacion);
+// let diez = 10;
+// let tres = 3;
+// let resultadoMultiplicacion = diez * tres;
+// console.log(resultadoMultiplicacion);
 
 /*
     Funciones
@@ -247,6 +248,12 @@ console.log(resultadoMultiplicacion);
 // Escribí código para que devuelva (return) la suma de numero1 y numero2
 // Ejecutá la función sumar y mostrá su resultado en la consola
 
+function sumar(numero1, numero2) {
+  return numero1 + numero2;
+}
+
+console.log(sumar(420, 69));
+
 // TAREA: Ahora creemos otra función llamada 'restar'
 //       Que acepte 2 números como parámetro y los reste, y que devuelva ese valor.
 // Ejecutá la función con los números 5 y 1 y mostralos con console.log
@@ -255,6 +262,12 @@ console.log(resultadoMultiplicacion);
 // y pasarlos como parámetros? Probalo!
 
 // Consejo: Dejá las funciones como están, no las comentes, las vamos a usar de nuevo.
+
+function restar(numero1, numero2) {
+  return numero1 - numero2;
+}
+
+console.log(restar(5, 1));
 
 /*
     Condicionales If-Else
