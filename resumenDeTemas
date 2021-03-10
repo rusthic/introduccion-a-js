@@ -1,0 +1,51 @@
+#JavaScript
+
+
+##Comentarios
+
+###Comentarios de una sola linea
+    // Esto es un comentario de una sola linea
+###Comentarios multi-linea
+    /* Esto es un comentario
+        multi-linea */
+
+
+##Mostrar texto
+
+###Mostrar texto en pantalla
+    alert('Hola Mundo!')    //Muestra un cuadro de dialogo
+    console.log('Hola Mundo!')  //Imprime en consola
+
+
+##Variables
+
+###Declaracion
+    let nombreDeVariable    //Declara una variable indefinida
+    let nombreDeVariable = tipoDeVariable   //Declara una variable del tipo asignado
+    
+###Tipo de variables
+    String  'cadena de texto'
+    Numeros 420.69
+    Booleano    TRUE/FALSE
+
+    
+##Constantes
+    const nombreDeConstante = valorDeConstante  //Declara una constante 
+
+
+##Operadores aritmeticos
+    +   Adicion
+    -   Sustraccion
+    /   Division
+    *   Multiplicacion
+
+
+##Funciones
+
+###Declaracion
+    funciont nombreDeFuncion(argumento){
+        return nombreDe;
+    }
+    
+###Llamado a ejecutar
+    nombreDeFuncion(argumento);
