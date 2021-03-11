@@ -49,3 +49,13 @@
     
 ###Llamado a ejecutar
     nombreDeFuncion(argumento);
+
+
+###Condicionales If - Else
+
+    if (condicion) {
+
+    } else {
+        
+    }
+    
