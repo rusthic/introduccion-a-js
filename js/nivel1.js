@@ -248,12 +248,6 @@ Uncaught TypeError: Assignment to constant variable. */
 // Escribí código para que devuelva (return) la suma de numero1 y numero2
 // Ejecutá la función sumar y mostrá su resultado en la consola
 
-function sumar(numero1, numero2) {
-  return numero1 + numero2;
-}
-
-console.log(sumar(420, 69));
-
 // TAREA: Ahora creemos otra función llamada 'restar'
 //       Que acepte 2 números como parámetro y los reste, y que devuelva ese valor.
 // Ejecutá la función con los números 5 y 1 y mostralos con console.log
@@ -262,12 +256,6 @@ console.log(sumar(420, 69));
 // y pasarlos como parámetros? Probalo!
 
 // Consejo: Dejá las funciones como están, no las comentes, las vamos a usar de nuevo.
-
-function restar(numero1, numero2) {
-  return numero1 - numero2;
-}
-
-console.log(restar(5, 1));
 
 /*
     Condicionales If-Else
@@ -384,6 +372,38 @@ console.log(restar(5, 1));
 //       'else if' el 'operador' es igual a '*' - llamar a la función 'multiplicar'.
 //       else console.log - "Perdón, no conozco ese operador".
 
+function sumar(numero1, numero2) {
+    return numero1 + numero2;
+}
+
+function dividir(numero1, numero2) {
+    return numero1 / numero2;
+}
+
+function multiplicar(numero1, numero2) {
+    return numero1 * numero2;
+}
+
+function restar(numero1, numero2) {
+    return numero1 - numero2;
+}
+
+let operador = "o";
+let num1 = 420;
+let num2 = 69;
+
+if (operador === "+") {
+    console.log(sumar(num1, num2));
+} else if (operador === "-") {
+    console.log(restar(num1, num2));
+} else if (operador === "*") {
+    console.log(multiplicar(num1, num2));
+} else if (operador === "/") {
+    console.log(dividir(num1, num2));
+} else {
+    console.log("Perdon, no  conozco ese operador.");
+}
+
 /*
     Operadores Booleanos
     =================
@@ -409,6 +429,9 @@ console.log(restar(5, 1));
 
 // TAREA: usando el operador !, Intentá invertir una variable (de true a false, o de false a true) e imprimí el
 // resultado en la consola.
+
+let variable = true;
+console.log(!variable);
 
 ////////////////////////////////////////////////////////////////////////////
 // Felicitaciones! Terminaste el Nivel 1 de la introducción a JavaScript! //

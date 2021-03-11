@@ -55,7 +55,17 @@
 
     if (condicion) {
 
-    } else {
+    } else if {
         
+    } else {
+
     }
     
+
+###Operadores de comparacion
+    >   // Mayor que
+    <   // Menor que
+    <=  // Menor o igual que (se escribe en este orden, =< no existe)
+    >=  //Mayor o igual que (se escribe en este orden, => es usado para otra cosa)
+    === //Exactamente igual que 
+    !== //Distinto que (dándole importancia al TIPO)
