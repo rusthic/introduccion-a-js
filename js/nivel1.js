@@ -435,5 +435,5 @@ console.log(!variable);
 
 ////////////////////////////////////////////////////////////////////////////
 // Felicitaciones! Terminaste el Nivel 1 de la introducción a JavaScript! //
-// El siguiente nivel es el que está en nivel2.js                         //
+// El siguiente nivel es el que está en nivel2.js.                        //
 ////////////////////////////////////////////////////////////////////////////
