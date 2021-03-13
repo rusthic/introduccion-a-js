@@ -15,7 +15,8 @@
 ###Mostrar texto en pantalla
     alert('Hola Mundo!')    //Muestra un cuadro de dialogo
     console.log('Hola Mundo!')  //Imprime en consola
-
+###Solicitar inputs
+    prompt('Mensaje a mostrar') //Muestra un cuadro con un input
 
 ##Variables
 
