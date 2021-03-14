@@ -63,3 +63,13 @@ No puedes declarar una constante con el mismo nombre que una función o una vari
 ### Object
 
 -   una estructura de datos que contiene datos e instrucciones para trabajar con los datos.
+
+## Operadores
+
+| Operador             | Explicación                                                              | Símbolo | Ejemplo          |
+| -------------------- | ------------------------------------------------------------------------ | ------- | ---------------- |
+| Suma / concatena     | Sumar numeros o juntar cadenas de texto                                  | +       | 2 + 1 "ho"+"la"  |
+| Resta / Mult / Div   | Restar, multiplicar o dividir                                            | - \* /  | 9 - 4 \* 7       |
+| Asignación           | Asigna un valor a una variable                                           | =       | asd = " "        |
+| Identidad / Igualdad | Comprueba si dos valores son iguales entre si. Devuelve `true` o `false` | ===     | variable === 4   |
+| Negación / Distinto  | Equivale al operador NOT. Cambia `true` por `false`                      | ! !=    | !variable / !==3 |
