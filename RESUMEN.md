@@ -4,4 +4,4 @@
 
 `// ` Comentario de una sola linea.
 
-`/_ ... _/` Comentario multi-linea.
+`/* ... */` Comentario multi-linea.
