@@ -1,16 +1,3 @@
-#JavaScript
-
-##Comentarios
-
-###Comentarios de una sola linea
-// Esto es un comentario de una sola linea
-###Comentarios multi-linea
-
-```sh
-/* Esto es un comentario
-multi-linea */
-```
-
 # r/Argentina Programa
 
 Este repositorio es una traducción casi literal de https://github.com/muses-code-js/js-intro-workshop, de [MusesCodeJS](https://musescodejs.org/) y su autora Tanya Butenko.
