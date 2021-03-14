@@ -5,10 +5,11 @@
 ###Comentarios de una sola linea
 // Esto es un comentario de una sola linea
 ###Comentarios multi-linea
-'''sh
+
+```sh
 /_ Esto es un comentario
 multi-linea _/
-'''
+```
 
 # r/Argentina Programa
 
