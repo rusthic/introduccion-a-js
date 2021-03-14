@@ -7,8 +7,8 @@
 ###Comentarios multi-linea
 
 ```sh
-/_ Esto es un comentario
-multi-linea _/
+/* Esto es un comentario
+multi-linea */
 ```
 
 # r/Argentina Programa
