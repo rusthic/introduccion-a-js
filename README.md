@@ -56,7 +56,7 @@ Podés escribir código de JavaScript directamente acá y ver los resultados de 
 | Carpeta CSS    | contiene los archivos css responsables de los estilos y cómo se ve (estéticamente) nuestro proyecto en la web                                             |
 | Carpeta img    | un lugar donde podemos almacenar imágenes para utilizar en nuestra página web.                                                                            |
 | Carpeta js     | contiene los archivos JavaScript que hacen funcionar a nuestro proyecto, define el contenido y hace funcional a una página estatica. Contiene 3 archivos: |
-| \|-- nivel1.js | basicas con explicaciones (comentarios, variables, funciones, declaraciones if/else)                                                                      |
+| \|-- nivel1.js | básicas con explicaciones (comentarios, variables, funciones, declaraciones if/else)                                                                      |
 | \|-- nivel2.js | JavaScript más complejo con explicaciones (arrays, loops)                                                                                                 |
 | \|-- nivel3.js | En proceso de traducción. HTML, CSS y cómo manipularlos con JavaScript (selectores)                                                                       |
 | Carpeta tareas | Contiene las tareas del curso. Cada uno viene en una subcarpeta con un index.html, abran ese index.html para hacer funcionar el código!                   |

@@ -26,7 +26,7 @@ Resumen de contenidos de r/argentinaprograma introducción a JavaScript
 
 Una variable declarada con `let` sin un valor asignado tiene como valor `undefined`. Un intento de acceder a esta dispara una excepción `ReferenceError`.
 
-El valor `undefined` se comporta como `false` en contexto booleano, `NaN` en contexto numérico.
+El valor `undefined` se comporta como `false` en contexto booleano y como `NaN` en contexto numérico.
 
 Cuando evalúas una variable `null` se comporta como `0` en contexto numérico y como `false` en contexto booleano.
 
@@ -68,8 +68,47 @@ No puedes declarar una constante con el mismo nombre que una función o una vari
 
 | Operador             | Explicación                                                              | Símbolo | Ejemplo          |
 | -------------------- | ------------------------------------------------------------------------ | ------- | ---------------- |
-| Suma / concatena     | Sumar numeros o juntar cadenas de texto                                  | +       | 2 + 1 "ho"+"la"  |
+| Suma / concatena     | Sumar números o juntar cadenas de texto                                  | +       | 2 + 1 "ho"+"la"  |
 | Resta / Mult / Div   | Restar, multiplicar o dividir                                            | - \* /  | 9 - 4 \* 7       |
 | Asignación           | Asigna un valor a una variable                                           | =       | asd = " "        |
 | Identidad / Igualdad | Comprueba si dos valores son iguales entre si. Devuelve `true` o `false` | ===     | variable === 4   |
 | Negación / Distinto  | Equivale al operador NOT. Cambia `true` por `false`                      | ! !=    | !variable / !==3 |
+| Comparación          | Mayor, menor, igual, etc                                                 | < > <=  | variable<=7      |
+
+## Funciones
+
+Una función un es conjunto de instrucciones que realiza una tarea o calcula un valor, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida.
+
+### Declaración de funciones
+
+```javascript
+function nombreDeFuncion(param1, param2, ...){
+    return ...
+}
+
+console.log(nombreDeFuncion(parm1....));
+```
+
+## Control de flujo
+
+### if ... else
+
+Una expresión condicional es un conjunto de instrucciones que se ejecutarán si una condición especificada es verdadera.
+
+```javascript
+if (condicion) {
+    declaracion;
+} else if (condicion) {
+    declaracion;
+} else {
+}
+```
+
+### Valores falsos
+
+-   `false`
+-   `undefined`
+-   `null`
+-   `0`
+-   `NaN`
+-   la cadena vacía `(" ")`
