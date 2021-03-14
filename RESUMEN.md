@@ -1,3 +1,5 @@
+Resumen de contenidos de r/argentinaprograma introducción a JavaScript
+
 # JavaScript
 
 ## Comentarios
