@@ -1,73 +1,62 @@
 #JavaScript
 
-
 ##Comentarios
 
 ###Comentarios de una sola linea
-    // Esto es un comentario de una sola linea
+// Esto es un comentario de una sola linea
 ###Comentarios multi-linea
-    '''sh
-    /* Esto es un comentario
-        multi-linea */
-    '''
+'''sh
+/_ Esto es un comentario
+multi-linea _/
+'''
 
 ##Mostrar texto
 
 ###Mostrar texto en pantalla
-    alert('Hola Mundo!')    //Muestra un cuadro de dialogo
-    console.log('Hola Mundo!')  //Imprime en consola
+alert('Hola Mundo!') //Muestra un cuadro de dialogo
+console.log('Hola Mundo!') //Imprime en consola
 ###Solicitar inputs
-    prompt('Mensaje a mostrar') //Muestra un cuadro con un input
+prompt('Mensaje a mostrar') //Muestra un cuadro con un input
 
 ##Variables
 
 ###Declaracion
-    let nombreDeVariable    //Declara una variable indefinida
-    let nombreDeVariable = tipoDeVariable   //Declara una variable del tipo asignado
-    
+let nombreDeVariable //Declara una variable indefinida
+let nombreDeVariable = tipoDeVariable //Declara una variable del tipo asignado
+
 ###Tipo de variables
-    String  'cadena de texto'
-    Numeros 420.69
-    Booleano    TRUE/FALSE
+String 'cadena de texto'
+Numeros 420.69
+Booleano TRUE/FALSE
 
-    
 ##Constantes
-    const nombreDeConstante = valorDeConstante  //Declara una constante 
+const nombreDeConstante = valorDeConstante //Declara una constante
 
-
-##Operadores aritmeticos
-    +   Adicion
-    -   Sustraccion
-    /   Division
-    *   Multiplicacion
-
+##Operadores aritmeticos + Adicion - Sustraccion
+/ Division \* Multiplicacion
 
 ##Funciones
 
 ###Declaracion
-    funciont nombreDeFuncion(argumento){
-        return nombreDe;
-    }
-    
-###Llamado a ejecutar
-    nombreDeFuncion(argumento);
+funciont nombreDeFuncion(argumento){
+return nombreDe;
+}
 
+###Llamado a ejecutar
+nombreDeFuncion(argumento);
 
 ###Condicionales If - Else
 
     if (condicion) {
 
     } else if {
-        
+
     } else {
 
     }
-    
 
-###Operadores de comparacion
-    >   // Mayor que
-    <   // Menor que
-    <=  // Menor o igual que (se escribe en este orden, =< no existe)
-    >=  //Mayor o igual que (se escribe en este orden, => es usado para otra cosa)
-    === //Exactamente igual que 
-    !== //Distinto que (dándole importancia al TIPO)
+###Operadores de comparacion > // Mayor que
+< // Menor que
+<= // Menor o igual que (se escribe en este orden, =< no existe) >= //Mayor o igual que (se escribe en este orden, => es usado para otra cosa)
+=== //Exactamente igual que
+!== //Distinto que (dándole importancia al TIPO)
