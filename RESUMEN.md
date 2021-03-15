@@ -1,5 +1,3 @@
-TEST GIT VSCODDE
-
 Resumen de contenidos de r/argentinaprograma introducción a JavaScript
 
 # JavaScript
