@@ -1,26 +1,22 @@
-Resumen de contenidos de r/argentinaprograma introducción a JavaScript
-
-# JavaScript
-
-## Comentarios
+# Comentarios
 
 `//` Comentario de una sola linea.
 
 `/* ... */` Comentario multi-linea.
 
-## Mostrar texto
+# Mostrar texto
 
 `alert('texto a mostrar.')` Muestra el texto en un pop-up.
 
 `console.log('texto a imprimir.')` Imprime el texto en consola.
 
-## Solicitar inputs
+# Solicitar inputs
 
 `prompt('mensaje a mostrar.')` Muestra un pop-up con un cuadro para input.
 
-## Variables
+# Variables
 
-### Declaración:
+## Declaración:
 
 `let identificador` Declara una variable de alcance local con ámbito de bloque (bloque scope).
 
@@ -30,17 +26,17 @@ El valor `undefined` se comporta como `false` en contexto booleano y como `NaN` 
 
 Cuando evalúas una variable `null` se comporta como `0` en contexto numérico y como `false` en contexto booleano.
 
-### Ámbito de variables:
+## Ámbito de variables:
 
 Declarar una variable dentro de una función: variable local.
 
 Declarar una variable fuera de una función: variable global.
 
-### Elevación de variables (hoisting)
+## Elevación de variables (hoisting)
 
 Se puede hacer referencia a una variable declarada mas tarde, sin obtener una excepción. Las variables son elevadas o "izadas" a la parte superior de la función o declaración con valor `undefined` por mas que tengan valor asignado.
 
-## Constantes
+# Constantes
 
 `const identificador` Declara una constante de solo lectura.
 
@@ -48,9 +44,9 @@ Las reglas de ámbito para las constantes son las mismas que las de ámbito de b
 
 No puedes declarar una constante con el mismo nombre que una función o una variable en el mismo ámbito.
 
-## Estructuras y tipos de datos
+# Estructuras y tipos de datos
 
-### Primitivos
+## Primitivos
 
 -   Booleano: `true` o `false`
 -   null: Palabra clave especial que denota un valor nulo.
@@ -60,11 +56,11 @@ No puedes declarar una constante con el mismo nombre que una función o una vari
 -   String: Secuencia de caracteres que representa un valor de texto.
 -   Symbol: Tipo de dato cuyas instancias son únicas e inmutables.
 
-### Object
+## Object
 
 -   una estructura de datos que contiene datos e instrucciones para trabajar con los datos.
 
-## Operadores
+# Operadores
 
 | Operador             | Explicación                                                              | Símbolo | Ejemplo          |
 | -------------------- | ------------------------------------------------------------------------ | ------- | ---------------- |
@@ -75,11 +71,11 @@ No puedes declarar una constante con el mismo nombre que una función o una vari
 | Negación / Distinto  | Equivale al operador NOT. Cambia `true` por `false`                      | ! !=    | !variable / !==3 |
 | Comparación          | Mayor, menor, igual, etc                                                 | < > <=  | variable<=7      |
 
-## Funciones
+# Funciones
 
 Una función un es conjunto de instrucciones que realiza una tarea o calcula un valor, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida.
 
-### Declaración de funciones
+## Declaración de funciones
 
 ```javascript
 function nombreDeFuncion(param1, param2, ...){
@@ -89,9 +85,9 @@ function nombreDeFuncion(param1, param2, ...){
 console.log(nombreDeFuncion(parm1....));
 ```
 
-## Control de flujo
+# Control de flujo
 
-### if ... else
+## if ... else
 
 Una expresión condicional es un conjunto de instrucciones que se ejecutarán si una condición especificada es verdadera.
 
@@ -104,7 +100,7 @@ if (condicion) {
 }
 ```
 
-### Valores falsos
+## Valores falsos
 
 -   `false`
 -   `undefined`
