@@ -29,9 +29,12 @@ function restar(num1, num2) {
 let operacion = prompt("¿Quiere sumar o restar? Ingrese + o - ");
 let num1 = Number(prompt("Ingrese el primer numero"));
 let num2 = Number(prompt("Ingrese el segundo numero"));
-
+let resultado;
 if (operacion === "+") {
-    console.log(sumar(num1, num2));
+    resultado = sumar(num1, num2);
 } else {
-    console.log(restar(num1, num2));
+    resultado = restar(num1, num2);
 }
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings
+console.log(`El resultado de ${num1} ${operacion} ${num2} es ${resultado}`);
