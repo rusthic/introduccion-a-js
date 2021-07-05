@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clase 6 - Integrantes de la Familia</title>
+        <link rel="stylesheet" href="main.css"
+    </head>
+    <body>
+        <form id="calcular-edades">
+            <label>Ingrese cantidad de integrantes: </label>
+            <input type="number" id="cantidad-integrantes" />
+            <button id="submit">siguiente</button>
+            <div id="integrantes"></div>
+            <div id="calculo-integrantes" class="oculto">
+                <p>La edad del mayor integrante es de: <strong id="mayor-edad"></strong></p>
+                <p>La edad del menor integrante es de:<strong id="menor-edad"></strong></p>
+                <p>La edad promedio de los integrantes es de: <strong id="promedio-edad"></strong></p>
+            </div>
+            <button id="calcular" class="oculto">calcular</button>
+            <button type="reset" id="resetear">reset</button>
+        </form>
+
+        <script type="text/javascript" src="calculos.js"></script>
+        <script type="text/javascript" src="tarea-clase-6.js"></script>
+    </body>
+</html>
